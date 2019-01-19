@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="A Personal Portifolio website." />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="og:keywords"
+      content="Mukesh Chandra, Developer, Full Stack Developer"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content=" Mukesh Chandra" />
+    <meta property="og:url" content="https://www.nomadtechie.com" />
+    <meta property="description" content="A Personal Portifolio website." />
+    <meta property="og:image" content="./images/favicon.ico" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AlchemyGuy" />
+    <meta name="twitter:description" content="A Personal Portifolio website." />
+    <meta name="twitter:image" content="./images/favicon.ico" />
+    <meta name="twitter:url" content="https://www.nomadtechie.com" />
+
+    <title>Mukesh Chandra</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.min.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/aos.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/font-awesome.min.css"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-132777299-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-132777299-1");
+    </script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <nav class="nav__mobile"></nav>
+      <div class="container">
+        <div class="navbar__inner">
+          <a href="#" class="navbar__logo"> </a>
+          <nav class="navbar__menu">
+            <ul>
+              <li><a href="#service">Skills</a></li>
+              <li><a href="#timeline">Experience</a></li>
+              <li><a href="#contact">Say Hello!</a></li>
+            </ul>
+          </nav>
+          <div class="navbar__menu-mob">
+            <a href="" id="toggle">
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero unit -->
+    <div class="hero">
+      <div class="hero__overlay hero__overlay--gradient"></div>
+      <div class="hero__mask"></div>
+      <div class="hero__inner">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__content__inner" id="navConverter">
+              <div
+                class="step__media"
+                data-aos="zoom-in-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="./images/developer.svg"
+                  class="auth__media"
+                  alt="agree"
+                />
+              </div>
+              <h1
+                class="hero__title"
+                data-aos="zoom-in-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                Hi, I’m Mukesh. Nice to meet you.
+              </h1>
+              <div
+                class="hero__title"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <a
+                  href="https://github.com/alchemyguy"
+                  data-toggle="tooltip"
+                  title="GITHUB!"
+                  target="__blank"
+                  ><i class="fa fa-github fa-lg"></i
+                ></a>
+
+                <a
+                  href="https://www.instagram.com/alchemyguy/"
+                  data-toggle="tooltip"
+                  title="INSTAGRAM!"
+                  target="__blank"
+                  ><i class="fa fa-instagram fa-lg"></i
+                ></a>
+
+                <a
+                  href="https://www.linkedin.com/in/alchemyguy"
+                  data-toggle="tooltip"
+                  title="TWITTER!"
+                  target="__blank"
+                  ><i class="fa fa-linkedin fa-lg"></i
+                ></a>
+              </div>
+              <p
+                class="hero__text "
+                data-aos="fade-right"
+                data-aos-anchor-placement="left-center"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                I'm a Software Engineer from Nainital, India. I am experienced
+                in developing custom websites, mobile apps and Api's. I love
+                exporing new technologies and develop productive and clean
+                software.
+              </p>
+              <div>
+                <a
+                  href="#service"
+                  class="button button__accent "
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="right-center"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  >Know More</a
+                >
+                <a
+                  href="https://docs.google.com/document/export?format=pdf&id=17nL5Rm8lh4rUVfRRE1_hqbpyxUUOtKO-fbazmHmRYCI&token=AC4w5VhblYBZA3iuOynfE64yHtGycU8oEQ%3A1547920089237&ouid=103915050081644671670&includes_info_params=true"
+                  class="button button__accent "
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="right-center"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  target="__blank"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__sub">
+      <span id="scrollToNext" class="scroll">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          class="hero__sub__down"
+          fill="currentColor"
+          width="512px"
+          height="512px"
+          viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;"
+          xml:space="preserve"
+        >
+          <path
+            d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"
+          />
+        </svg>
+      </span>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps landing__section" id="service">
+      <div
+        class="container-fluid"
+        data-aos="zoom-in-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
+        <h2>Skills And Technologies</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="steps__inner">
+          <div
+            class="step"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="step__media">
+              <img
+                src="./images/undraw_programming.svg"
+                class="step__image"
+                alt="agree"
+              />
+            </div>
+            <h4>Programming</h4>
+            <p class="step__text">
+              Knowledge of good programming techniques, data structures and
+              various programming algorithms.
+            </p>
+          </div>
+          <div
+            class="step"
+            data-aos="zoom-in-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="step__media">
+              <img
+                src="./images/developer.svg"
+                class="step__image"
+                alt="agree"
+              />
+            </div>
+            <h4>Web Development</h4>
+            <p class="step__text">
+              Grasp in laravel framework, Django, Wordpress. Good Knowledge in
+              HTML/HTML5, CSS/CSS3, Bootstrap, AngularJS , ReactJS, Blade, ES6.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container">
+        <div class="steps__inner">
+          <div
+            class="step"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="step__media">
+              <img
+                src="./images/undraw_everywhere.svg"
+                class="step__image"
+                alt="agree"
+              />
+            </div>
+            <h4>Mobile App Development</h4>
+            <p class="step__text">
+              Experience in Mobile App Development Using Google Flutter and
+              React Native.
+            </p>
+          </div>
+          <div
+            class="step"
+            data-aos="zoom-in-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="step__media">
+              <img
+                src="./images/undraw_search_engines.svg"
+                class="step__image"
+                alt="agree"
+              />
+            </div>
+            <h4>SEO Management</h4>
+            <p class="step__text">
+              Well versed in Search Engine Optimization (SEO) and techniques of
+              SEO Management.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid" data-aos="zoom-in-left">
+        <div class="steps__inner">
+          <div
+            class="step"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="step__media">
+              <img
+                src="./images/undraw_version_control.svg"
+                class="step__image"
+                alt="agree"
+              />
+            </div>
+            <h4>Project Management in Git</h4>
+            <p class="step__text">
+              Experienced in working with team, have experince with Git and
+              other version control systens. Can efficiently work on group
+              projects, interactive and friendly with colleagues.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Expanded sections -->
+    <div class="expanded landing__section">
+      <div class="container">
+        <div class="expanded__inner">
+          <div
+            class="expanded__media"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img
+              src="./images/undraw_browser.svg"
+              class="expanded__image"
+              alt="agree"
+            />
+          </div>
+          <div
+            class="expanded__content"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h2 class="expanded__title">HAVE AN IDEA, LET'S DISCUSS!</h2>
+            <p class="expanded__text">
+              Let's discuss your idea. I can help you with implementation and
+              expandability of your idea, define a scope and create wireframes
+              based on your feedback.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="expanded landing__section">
+      <div class="container">
+        <div class="expanded__inner">
+          <div
+            class="expanded__media"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img
+              src="./images/undraw_frameworks.svg"
+              class="expanded__image"
+              alt="agree"
+            />
+          </div>
+          <div
+            class="expanded__content"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h2 class="expanded__title">Framework agnostic, your choice.</h2>
+            <p class="expanded__text"></p>
+            I can provide you with various case studies on framework, so that
+            you could choose what's best for your project. I try to keep
+            exploring new frameworks if you want me to work on some new
+            technology or framework I will be pleased to do so.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="expanded landing__section">
+      <div class="container">
+        <div class="expanded__inner">
+          <div
+            class="expanded__media"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img
+              src="./images/together.svg"
+              class="expanded__image"
+              alt="agree"
+            />
+          </div>
+          <div
+            class="expanded__content"
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h2 class="expanded__title">
+              High Quality, Reviewed & Expandable Code
+            </h2>
+            <p class="expanded__text">
+              I focus on writing hiqh quality and expandable code, making it
+              feasible to add more features and improvements in future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TImeLine Experience-->
+
+    <div class="expanded landing__section" id="timeline">
+      <div
+        class="text-center"
+        data-aos="zoom-in-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <h1>Experience</h1>
+        <p>Work Experience & Education</p>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="expanded__inner"
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <ul class="timeline">
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Freelancer</span>
+                  <span class="time-wrapper">
+                    <span class="time">2018 - present</span>
+                  </span>
+                </div>
+                <div class="desc">
+                  Currently working as a senior software Engineer and its been a
+                  great experience so far.
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag">GeekyAnts Software Private Ltd.</span>
+                  <span class="time-wrapper">
+                    <span class="time">2016 - 2018</span>
+                  </span>
+                </div>
+                <div class="desc">
+                  My first employer. I worked as a software developer,all the
+                  stuff I've learned and projects I've worked on. Nice exprience
+                  and exposure to new Technologies.
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">BTKIT, Dwarahat</span>
+                  <span class="time-wrapper">
+                    <span class="time">2012 - 2016</span>
+                  </span>
+                </div>
+                <div class="desc">
+                  I completed my B.Tech in Computer Science And Engineering from
+                  a beautiful college situated amid Kumaon hills.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call To Action -->
+    <div class="expanded landing__section">
+      <div class="auth" id="contact">
+        <div class="container">
+          <div class="auth__inner">
+            <div
+              class="auth__media"
+              data-aos="flip-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <img src="./images/undraw_agreement.svg" alt="agree" />
+            </div>
+            <div
+              class="auth__auth"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <h1 class="auth__title">Hey There !!</h1>
+              <p>
+                Thanks for taking the time to reach out. What can I do for you
+                today?
+              </p>
+              <form
+                method="POST"
+                autocompelete="new-password"
+                role="presentation"
+                class="form"
+                action="https://formspree.io/mukesh201722@gmail.com"
+              >
+                <label>Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+                />
+
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                />
+
+                <!-- <label>Phone (with Country Code)</label>
+                <input
+                  type="text"
+                  name="tel"
+                  id="tel"
+                  placeholder="+919999999999"
+                /> -->
+                <label>Message</label>
+                <textarea
+                  name="Message"
+                  id="Message"
+                  cols="30"
+                  rows="7"
+                ></textarea>
+                <button
+                  type="submit"
+                  class="button button__accent"
+                  id="submit_button"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer footer--dark">
+      <div class="container">
+        <div class="footer__inner">2019 &copy; All rights reserved.</div>
+      </div>
+    </div>
+
+    <script src="js/app.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-in-out-sine"
+      });
+    </script>
+  </body>
+</html>
