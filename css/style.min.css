@@ -673,11 +673,12 @@ select::-ms-expand {
   transition: 0.7s;
 }
 .navbar__logo {
-  font-size: 1.325rem;
+  /* font-size: 1.325rem; */
   -webkit-transition: 0;
   transition: 0;
   color: #fff;
   text-decoration: none;
+  width: 65px;
 }
 .navbar__menu {
   display: none;
