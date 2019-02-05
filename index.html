@@ -54,6 +54,14 @@
       media="screen"
       href="css/font-awesome.min.css"
     />
+
+    <script>
+      let str = window.location.href;
+      var n = str.indexOf("https://");
+      if (n === -1) {
+        window.location.replace("https://nomadtechie.com/");
+      }
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
