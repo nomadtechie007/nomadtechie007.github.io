@@ -216,7 +216,7 @@
 @media screen and (max-width: 660px) {
   
   .fix-d {
-   left:-px;
+   left:0px;
   }
   .timeline {
     width: 100%;
