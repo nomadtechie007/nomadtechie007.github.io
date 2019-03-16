@@ -210,6 +210,9 @@
 .fix-d {
   left:10px;
 }
+.fix-d2 {
+  left:7px;
+}
 
 /* ================ Timeline Media Queries ================ */
 
@@ -217,6 +220,9 @@
   
   .fix-d {
    left:0px;
+  }
+  .fix-d2 {
+    left:0px;
   }
   .timeline {
     width: 100%;
