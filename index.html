@@ -581,7 +581,7 @@
               >
                 <label>Email</label>
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   id="email"
                   placeholder="Your email"
@@ -589,6 +589,7 @@
 
                 <input
                   type="text"
+                  pattern=".{3,}"                       
                   name="name"
                   id="name"
                   placeholder="Your Name"
@@ -605,6 +606,7 @@
                 <textarea
                   name="Message"
                   id="Message"
+                  pattern=".{9,}"
                   cols="30"
                   rows="7"
                 ></textarea>
